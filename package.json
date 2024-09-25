@@ -18,6 +18,7 @@
     "check-packages": "yarn clean && yarn compile && yarn test && yarn lint"
   },
   "dependencies": {
+    "@svgr/webpack": "^8.1.0",
     "codewonders-helpers": "^1.1.0",
     "framer-motion": "^10.12.12",
     "next": "13.4.2",

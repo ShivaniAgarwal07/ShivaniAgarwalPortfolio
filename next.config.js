@@ -1,5 +1,3 @@
-// const withPWA = require('next-pwa');
-
 module.exports = {
   images: {
     domains: ['i.ibb.co'],
@@ -9,5 +7,12 @@ module.exports = {
   swcMinify: true,
   typescript: {
     tsconfigPath: 'tsconfig.json',
+  },
+  webpack(config) {
+    config.module.rules.push({
+      test: /\.svg$/,
+      use: ['@svgr/webpack'], // Add this line for SVGs as React components
+    });
+    return config;
   },
 };

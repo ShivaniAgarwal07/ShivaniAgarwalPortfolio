@@ -24,42 +24,33 @@ const Home = () => {
         <PageWrapper>
           <article>
             <motion.h1
-              data-text="I'm Adenekan Wonderful"
+              data-text="I'm Shivani Agarwal"
               className="intro__text"
               {...getTransitions(0.1)}
             >
-              <mark className="mark">I&apos;m Adenekan Wonderful</mark>
+              <mark className="mark">I&apos;m Shivani Agarwal</mark>
             </motion.h1>
             <motion.p {...getTransitions(0.3)}>
               {' '}
-              Your friendly neighborhood frontend developer, UX architect, and
-              JavaScript engineer. I spend my days (and often nights) painting
-              the Internet canvas with{' '}
+              A quirky full-stack developer with a mind full of creativity. I can make breathtaking frontend designs also create robust backend for my beautiful {' '}
               <Link href="/projects" aria-label="Go to Projects Page">
-                Projects
+              websites.
               </Link>{' '}
-              and lines of code, turning zeroes and ones into immersive,
-              interactive experiences,{' '}
+              Most of my spare time is dedicated towards learning and experimenting which shows that i'm a self taught programmer. I've got some great design skills also which gives a boost to my frontend skills(the more you visualize the better you create).{' '}
             </motion.p>
             <motion.p {...getTransitions(0.5)}>
-              Bona fide photochromic{' '}
-              <Link href="/articles" aria-label="Check out my Lens">
-                Lens
-              </Link>{' '}
-              enthusiast - sunlight or indoors, I&apos;ve got it covered. I
-              tread the path of minimalism, finding beauty in simplicity and
-              order. When I'm not crafting beautiful web experiences, you can
-              find me reading{' '}
+            
+              
+              I like to make digital experiences easier and simpler for people by turning zeros and ones into immersive and interactive  {' '} 
               <Link
                 href="/articles"
                 aria-label="Go to Articles Page And Check What I Read"
               >
-                Articles
+                 creations.
               </Link>{' '}
-              or swaying to the rhythm of Pop Music & Jazz, losing myself in the
-              captivating flow of melodies. anyways you can{' '}
+              Know more about me- i'm a disciplined fitness freak who's favorite cardio form is dance. i'm a black belt in martial arts. i also read books(sometimes), listen to music and yea i love mountains. that's all folks! you can {' '}
               <Link href="/contact" aria-label="Go to Contact Page">
-                Contact Me
+                Contact Me here.
               </Link>
             </motion.p>
           </article>

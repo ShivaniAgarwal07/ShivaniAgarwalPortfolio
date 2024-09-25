@@ -10,11 +10,11 @@ import styled from 'styled-components';
 import {
   IconRight,
   Twitter,
-  Facebook,
+  
   Linkedin,
   Github,
   Instagram,
-  Dribble,
+  Behance,
 } from '../Icons';
 
 /* ---------------------------- Style Dependency ---------------------------- */
@@ -45,26 +45,18 @@ const FooterLink: React.FC<IFooterLink &
         <a
           target="_blank"
           rel="noopener noreferrer"
-          href="https://twitter.com/code_wonders"
-          aria-label="Go To Adenekan Wonderful Twitter Page"
+          href="https://x.com/shivaniag0701"
+          aria-label="Go To Shivani Agarwal Twitter Page"
           title="Twitter Page"
         >
           <Twitter />
         </a>
+        
         <a
           target="_blank"
           rel="noopener noreferrer"
-          href="https://www.facebook.com/AdenekanWonderful"
-          aria-label="Go To Adenekan Wonderful Facebook Page"
-          title="Facebook Page"
-        >
-          <Facebook />
-        </a>
-        <a
-          target="_blank"
-          rel="noopener noreferrer"
-          href="https://linkedin.com/in/codewonders"
-          aria-label="Go To Adenekan Wonderful Linkedin Page"
+          href="https://www.linkedin.com/in/shivaniagarwal07/"
+          aria-label="Go To Shivani Agarwal Linkedin Page"
           title="Linkedin Page"
         >
           <Linkedin />
@@ -72,8 +64,8 @@ const FooterLink: React.FC<IFooterLink &
         <a
           target="_blank"
           rel="noopener noreferrer"
-          href="https://github.com/adenekan41"
-          aria-label="Go To Adenekan Wonderful Github Page"
+          href="https://github.com/ShivaniAgarwal07"
+          aria-label="Go To Shivani Agarwal Github Page"
           title="Github Page"
         >
           <Github />
@@ -81,17 +73,17 @@ const FooterLink: React.FC<IFooterLink &
         <a
           target="_blank"
           rel="noopener noreferrer"
-          href="https://dribbble.com/codewonders"
-          aria-label="Go To Adenekan Wonderful Dribble Page"
+          href="https://www.behance.net/shivaniagarwal14"
+          aria-label="Go To Shivani Agarwal Behance Page"
           title="Dribbble Page"
         >
-          <Dribble />
+          <Behance />
         </a>
         <a
           target="_blank"
           rel="noopener noreferrer"
-          href="https://instagram.com/codewonders"
-          aria-label="Go To Adenekan Wonderful Instagram Page"
+          href="https://www.instagram.com/khushi_agarwal_7"
+          aria-label="Go To Shivani Agarwal Instagram Page"
           title="Instagram Page"
         >
           <Instagram />

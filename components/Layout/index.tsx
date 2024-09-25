@@ -42,7 +42,7 @@ const Layout: React.FC<PropsWithChildren<{
     <Main>
       <BodyStyling theme={theme} />
       <Head>
-        <title>{`${title} | Adenekan Wonderful | Codewonders`}</title>
+        <title>{`${title} | Shivani Agarwal `}</title>
         <meta
           name="msapplication-TileColor"
           content={`${theme ? '#000000' : '#FFFFFF'}`}
@@ -53,7 +53,7 @@ const Layout: React.FC<PropsWithChildren<{
       <Navbar />
       <BackLay title={title}>
         <h1 aria-hidden="true">
-          {title === 'Home' ? 'CW.' : title.concat('.')}
+          {title === 'Home' ? 'SA.' : title.concat('.')}
         </h1>
       </BackLay>
       <Cursor />
